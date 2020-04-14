@@ -1,0 +1,17 @@
+node_modules/
+
+.env
+*.lock
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+.firebase
+
+logicgame-9f4ca-firebase-adminsdk-80vw9-945285eefb.json
+
+/build
