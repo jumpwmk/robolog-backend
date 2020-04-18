@@ -775,6 +775,7 @@ export function get_map(obj) {
         cntGems: 0,
         cntBlocks: 0,
         command_blocks: get_commands(commands),
+        commands: commands,
       };
       console.log(mapData.blocks);
       break;
