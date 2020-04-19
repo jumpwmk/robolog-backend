@@ -770,7 +770,7 @@ export function get_map(obj) {
     if (chk) {
       const gems = get_gems(mapData);
       mapData.blocks = {
-        maxBlocks: count_blocks(commands),
+        maxBlocks: count_blocks(commands) + 1,
         maxGems: gems,
         cntGems: 0,
         cntBlocks: 0,
